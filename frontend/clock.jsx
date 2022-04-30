@@ -33,8 +33,11 @@ class Clock extends React.Component {
 
   render() {
     return (
-      <div>
+      <div id="clock">
         {`${this.state.hours.toString().padStart(2,'0')} : ${this.state.minutes.toString().padStart(2,'0')} : ${this.state.seconds.toString().padStart(2,'0')}`}
+
+
+        <button>Hello</button>
       </div>
     )
   }

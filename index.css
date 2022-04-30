@@ -1,5 +1,16 @@
 
-div {
+#clock {
   font-family: 'Bungee Shade', cursive;
   font-size: xx-large;
+  width: 100%;
+  display:grid;
+
+  grid-template-areas:
+  " . a a a ."
+  " . a a a .";
+  border: 1px solid black;
+}
+
+button {
+  grid-area: a;
 }
